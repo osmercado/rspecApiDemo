@@ -1,4 +1,4 @@
-# README
+# RSpecs + Rails + API calls tests
 
 This demo aims to demostrate the testing for API calls using RSpecs in Rails.
 
@@ -8,7 +8,7 @@ ruby 3.2.1
 * Rails version
 rails 7.0.4.2
 
-* How to setup RSpec
+## How to setup RSpec
 
 Version:
 rspec (3.12.0)
@@ -35,7 +35,7 @@ $ rspec /spec/..{filename}_spec.rb
 
 - ./spec/requests/user_api_spec.rb is file that contains the rspec tests
 
-* HTTPParty
+## HTTPParty
 For this porpuse demo, we are using HTTPParty to perform API calls dureing tests. HTTPParty gem aid us handle reqres's (https://reqres.in) api request
 ```
 gem 'httparty'
